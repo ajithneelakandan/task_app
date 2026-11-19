@@ -212,9 +212,9 @@
 // Property	        Description	                                                Example
 // ------------------------------------------------------------------------------------------------
 // length	         Number of elements in the list	                              myList.length
-// isEmpty	       Returns true if the list has no elements	                  myList.isEmpty
+// isEmpty	       Returns true if the list has no elements	                    myList.isEmpty
 // isNotEmpty	     Returns true if the list has at least one element	          myList.isNotEmpty
-// first	         Returns the first element	                                myList.first
+// first	         Returns the first element	                                  myList.first
 // last	           Returns the last element	                                    myList.last
 // reversed	       Returns an iterable of the list in reverse order       	    myList.reversed
 // single	         Returns the only element (throws error if more than one)   	myList.single
@@ -251,19 +251,19 @@
 // void main(List<String> args) {
 //   Map<dynamic, int> a = {"aj": 23, "cj": 24, "dj": 25};
 //   print(a.isEmpty);
-  // Map<String, int> b = {"Aj": 23, "Bc": 24, "cd": 25};
-  // print(b.remove("Aj"));
-  // Map<String, int> c = {"Aj": 23, "Bc": 24, "cd": 25};
-  // print(c.keys);
-  // Map<String, int> d = {"Aj": 23, "Bc": 24, "cd": 25};
-  // print(d.cast());
-  // Map<String, int> e = {"Aj": 23, "Bc": 24, "cd": 25};
-  // print(e.containsKey("Aj"));
-  // Map<String, int> f = {"Aj": 23, "Bc": 24, "cd": 25};
-  // print(f.keys);
-  // print(f.values);
-  // print(f.entries);
-  // print(f.remove("Aj"));
+// Map<String, int> b = {"Aj": 23, "Bc": 24, "cd": 25};
+// print(b.remove("Aj"));
+// Map<String, int> c = {"Aj": 23, "Bc": 24, "cd": 25};
+// print(c.keys);
+// Map<String, int> d = {"Aj": 23, "Bc": 24, "cd": 25};
+// print(d.cast());
+// Map<String, int> e = {"Aj": 23, "Bc": 24, "cd": 25};
+// print(e.containsKey("Aj"));
+// Map<String, int> f = {"Aj": 23, "Bc": 24, "cd": 25};
+// print(f.keys);
+// print(f.values);
+// print(f.entries);
+// print(f.remove("Aj"));
 // }
 
 // Property     Description                                              Example
