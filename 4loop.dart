@@ -75,6 +75,8 @@
 
 // List<int> numbers = [10, 20, 30, 40, 50];
 
+//---for loop--------
+
 // void main(List<String> args) {
 //   List<int> numbers = [10, 20, 30, 40, 50];
 //   int sum = 0;
@@ -84,15 +86,49 @@
 //   print(sum);
 // }
 
+//--- while loop-----
+
+// void main() {
+//   List<int> numbers = [10, 20, 30, 40, 50];
+
+//   int sum = 0;
+//   int i = 0;
+
+//   while (i < numbers.length) {
+//     sum = sum + numbers[i];
+//     i++;
+//   }
+
+//   print("Sum of all elements: $sum");
+// }
+
+// ---do while------
+
+// void main() {
+//   List<int> numbers = [10, 20, 30, 40, 50];
+
+//   int sum = 0;
+//   int i = 0;
+
+//   do {
+//     sum = sum + numbers[i];
+//     i++;
+//   } while (i < numbers.length);
+
+//   print("Sum of all elements: $sum");
+// }
+
 // 2. Find Largest Number
 
 // Question
 
 // List<int> numbers = [10, 50, 20, 80, 30];
 
+// ----for loop----------
+
 // void main() {
 //   List<int> numbers = [10, 50, 20, 80, 30];
-//   int large = 0;
+//   int largest = 0;
 //   for (int i in numbers) {
 //     if (i > large) {
 //       large = i;
@@ -101,19 +137,44 @@
 //   print("Largest number = $large");
 // }
 
-// void main(List<String> args) {
-//   List<int> numbers = [10, 50, 20, 80, 30];
-//   int large = 0;
-//   for (int i in numbers) {
-//     if (i > large) {
-//       large = i;
+//----- while loop--------
+
+// void main() {
+// List<int> numbers = [10, 50, 20, 80, 30];
+//   int largest = numbers[0];
+//   int i = 0;
+
+//   while (i < numbers.length) {
+//     if (numbers[i] > largest) {
+//       largest = numbers[i];
 //     }
+//     i++;
 //   }
-//   print("The largest number in the given number is $large");
+
+//   print("Largest number : $largest");
+// }
+
+// ----do while loop--------
+
+// void main() {
+//   List<int> numbers = [10, 50, 20, 80, 30];
+//   int largest = numbers[0];
+//   int i = 0;
+
+//   do {
+//     if (numbers[i] > largest) {
+//       largest = numbers[i];
+//     }
+//     i++;
+//   } while (i < numbers.length);
+
+//   print("The largest number : $max");
 // }
 
 // 3. Find Smallest Number
 // List<int> numbers = [10, 50, 20, 80, 30];
+
+// ------for loop-------
 
 // void main(List<String> args) {
 //   List<int> numbers = [10, 50, 20, 80, 30];
@@ -126,8 +187,42 @@
 //   print("The smallest number=$small");
 // }
 
+// -----while loop--------
+
+// void main() {
+//   List<int> numbers = [10, 50, 20, 80, 30];
+//   int smallest = numbers[0];
+//   int i = 0;
+//   while (i < numbers.length) {
+//     if (numbers[i] < smallest) {
+//       smallest = numbers[i];
+//     }
+//     i++;
+//   }
+//   print("The smallest number is:$smallest");
+// }
+
+// -----do while loop---------
+
+// void main() {
+//   List<int> numbers = [10, 50, 20, 80, 30];
+//   int smallest = numbers[0];
+//   int i = 0;
+
+//   do {
+//     if (numbers[i] > smallest) {
+//       smallest = numbers[i];
+//     }
+//     i++;
+//   } while (i < numbers.length);
+
+//   print("The smallest number : $smallest");
+// }
+
 // 4. Count Even Numbers
 // List<int> numbers = [1, 2, 3, 4, 5, 6];
+
+// ----for loop--------
 
 // void main() {
 //   List<int> numbers = [1, 2, 3, 4, 5, 6];
@@ -143,20 +238,46 @@
 //   print("Number of even numbers = $a");
 // }
 
-// void main(List<String> args) {
+// -----while loop-------
+
+// void main() {
 //   List<int> numbers = [1, 2, 3, 4, 5, 6];
-//   List<int> even = [];
-//   for (int i in numbers) {
-//     if (i % 2 == 0) {
-//       even.add(i);
+//   int even = 0;
+//   int i = 0;
+
+//   while (i < numbers.length) {
+//     if (numbers[i] % 2 == 0) {
+//       even++;
 //     }
+//     i++;
 //   }
-//   print("even numbers=$even");
-//   print("count=${even.length}");
+
+//   print("Number of even numbers: $even");
+// }
+
+// -----do while loop---------
+
+// void main() {
+//   List<int> numbers = [1, 2, 3, 4, 5, 6];
+//   int even = 0;
+//   int i = 0;
+
+//   if (numbers.isNotEmpty) {
+//     do {
+//       if (numbers[i] % 2 == 0) {
+//         even++;
+//       }
+//       i++;
+//     } while (i < numbers.length);
+//   }
+
+//   print("Number of even numbers: $even");
 // }
 
 // 5. Reverse a List
 // List<int> numbers = [1, 2, 3, 4, 5];
+
+// ----for loop------
 
 // void main() {
 //   List<int> numbers = [1, 2, 3, 4, 5];
@@ -166,6 +287,40 @@
 //   for (int i = numbers.length - 1; i >= 0; i--) {
 //     reverse.add(numbers[i]);
 //   }
+//   print(reverse);
+// }
+
+// ------while loop--------
+
+// void main() {
+//   List<int> numbers = [1, 2, 3, 4, 5];
+//   List<int> reverse = [];
+
+//   int i = numbers.length - 1;
+
+//   while (i >= 0) {
+//     reverse.add(numbers[i]);
+//     i--; // Move backward
+//   }
+
+//   print(reverse);
+// }
+
+// -------do while loop---------
+
+// void main() {
+//   List<int> numbers = [1, 2, 3, 4, 5];
+//   List<int> reverse = [];
+
+//   if (numbers.isNotEmpty) {
+//     int i = numbers.length - 1;
+
+//     do {
+//       reverse.add(numbers[i]);
+//       i--;
+//     } while (i >= 0);
+//   }
+
 //   print(reverse);
 // }
 
