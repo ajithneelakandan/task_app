@@ -329,6 +329,8 @@
 
 // this is one of the most common interview questions
 
+// -----for loop----------
+
 // void main() {
 //   List<int> numbers = [10, 50, 80, 20, 70];
 
@@ -346,6 +348,68 @@
 
 //   print("Largest Number = $largest");
 //   print("Second Largest Number = $secondlargest");
+// }
+
+// -----while loop----------
+
+// void main() {
+//   List<int> numbers = [10, 50, 80, 20, 70];
+
+//   if (numbers.length < 2) {
+//     print("List must contain at least two numbers.");
+//     return;
+//   }
+
+//   int largest = numbers[0];
+//   int secondLargest = numbers[0];
+
+//   if (numbers[1] > largest) {
+//     largest = numbers[1];
+//     secondLargest = numbers[0];
+//   } else {
+//     largest = numbers[0];
+//     secondLargest = numbers[1];
+//   }
+
+//   int i = 2;
+//   while (i < numbers.length) {
+//     if (numbers[i] > largest) {
+//       secondLargest = largest;
+//       largest = numbers[i];
+//     } else if (numbers[i] > secondLargest && numbers[i] != largest) {
+//       secondLargest = numbers[i];
+//     }
+//     i++;
+//   }
+
+//   print("Second Largest number: $secondLargest");
+// }
+
+// ----do while loop--------
+
+// void main() {
+//   List<int> numbers = [10, 50, 80, 20, 70];
+
+//   if (numbers.length < 2) {
+//     print("List must contain at least two numbers.");
+//     return;
+//   }
+
+//   int largest = numbers[0];
+//   int secondLargest = numbers[0];
+
+//   int i = 0;
+//   do {
+//     if (numbers[i] > largest) {
+//       secondLargest = largest;
+//       largest = numbers[i];
+//     } else if (numbers[i] > secondLargest && numbers[i] != largest) {
+//       secondLargest = numbers[i];
+//     }
+//     i++;
+//   } while (i < numbers.length);
+
+//   print("Second Largest number: $secondLargest");
 // }
 
 // 7. Count Positive and Negative Numbers
