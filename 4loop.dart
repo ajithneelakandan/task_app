@@ -550,6 +550,8 @@
 // Question:
 // Write a Dart program to check whether a number is a palindrome or not.
 
+// -----for loop------------
+
 // void main() {
 //   int number = 121;
 //   int originalNumber = number;
@@ -564,6 +566,51 @@
 //     print("$originalNumber is a Palindrome");
 //   } else {
 //     print("$originalNumber is Not a Palindrome");
+//   }
+// }
+
+// ------while loop----------
+
+// void main() {
+//   int number = 121;
+//   int originalNumber = number;
+//   int reversedNumber = 0;
+
+//   while (number > 0) {
+//     int remainder = number % 10;
+//     reversedNumber = (reversedNumber * 10) + remainder;
+//     number ~/= 10;
+//   }
+
+//   if (originalNumber == reversedNumber) {
+//     print('$originalNumber is a palindrome.');
+//   } else {
+//     print('$originalNumber is not a palindrome.');
+//   }
+// }
+
+// -----do while loop----------
+
+// void main() {
+//   int number = 12321;
+//   int originalNumber = number;
+//   int reversedNumber = 0;
+
+//   if (number < 0) {
+//     print('$originalNumber is not a palindrome.');
+//     return;
+//   }
+
+//   do {
+//     int remainder = number % 10;
+//     reversedNumber = (reversedNumber * 10) + remainder;
+//     number ~/= 10;
+//   } while (number > 0);
+
+//   if (originalNumber == reversedNumber) {
+//     print('$originalNumber is a palindrome.');
+//   } else {
+//     print('$originalNumber is not a palindrome.');
 //   }
 // }
 
