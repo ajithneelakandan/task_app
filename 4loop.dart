@@ -415,6 +415,8 @@
 // 7. Count Positive and Negative Numbers
 // List<int> numbers = [10, -5, 20, -3, 0];
 
+// -----for loop--------
+
 // void main() {
 //   List<int> numbers = [10, -5, 20, -3, 0];
 
@@ -433,25 +435,51 @@
 //   print("Negative Numbers = $negative");
 // }
 
-// void main(List<String> args) {
+// -----while loop-------
+
+// void main() {
 //   List<int> numbers = [10, -5, 20, -3, 0];
 
-//   List<int> positive = [];
-//   List<int> negative = [];
-//   List<int> neutral = [];
-//   for (int i in numbers) {
-//     if (i > 0) {
-//       positive.add(i);
-//     } else if (i < 0) {
-//       negative.add(i);
-//     } else {
-//       neutral.add(i);
+//   int positiveCount = 0;
+//   int negativeCount = 0;
+//   int i = 0;
+
+//   while (i < numbers.length) {
+//     if (numbers[i] > 0) {
+//       positiveCount++;
+//     } else if (numbers[i] < 0) {
+//       negativeCount++;
 //     }
+//     i++;
 //   }
-//   print("The number of positive numbers= $positive");
-//   print("The number of negative numbers= $negative");
-//   print("The neutral numbers are= $neutral");
+
+//   print("Positive numbers: $positiveCount");
+//   print("Negative numbers: $negativeCount");
 // }
+
+// ----do while loop------
+
+void main() {
+  List<int> numbers = [10, -5, 20, -3, 0];
+
+  int positiveCount = 0;
+  int negativeCount = 0;
+  int i = 0;
+
+  if (numbers.isNotEmpty) {
+    do {
+      if (numbers[i] > 0) {
+        positiveCount++;
+      } else if (numbers[i] < 0) {
+        negativeCount++;
+      }
+      i++;
+    } while (i < numbers.length);
+  }
+
+  print("Positive numbers: $positiveCount"); // Output: 2
+  print("Negative numbers: $negativeCount"); // Output: 2
+}
 
 // 9. Find Duplicate Elements
 // List<int> numbers = [1, 2, 3, 2, 4, 1];
