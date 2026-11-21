@@ -610,7 +610,7 @@
 //   if (originalNumber == reversedNumber) {
 //     print('$originalNumber is a palindrome.');
 //   } else {
-//     print('$originalNumber is not a palindrome.');palindrome
+//     print('$originalNumber is not a palindrome.');
 //   }
 // }
 
