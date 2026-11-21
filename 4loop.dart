@@ -459,30 +459,32 @@
 
 // ----do while loop------
 
-void main() {
-  List<int> numbers = [10, -5, 20, -3, 0];
+// void main() {
+//   List<int> numbers = [10, -5, 20, -3, 0];
 
-  int positiveCount = 0;
-  int negativeCount = 0;
-  int i = 0;
+//   int positiveCount = 0;
+//   int negativeCount = 0;
+//   int i = 0;
 
-  if (numbers.isNotEmpty) {
-    do {
-      if (numbers[i] > 0) {
-        positiveCount++;
-      } else if (numbers[i] < 0) {
-        negativeCount++;
-      }
-      i++;
-    } while (i < numbers.length);
-  }
+//   if (numbers.isNotEmpty) {
+//     do {
+//       if (numbers[i] > 0) {
+//         positiveCount++;
+//       } else if (numbers[i] < 0) {
+//         negativeCount++;
+//       }
+//       i++;
+//     } while (i < numbers.length);
+//   }
 
-  print("Positive numbers: $positiveCount"); // Output: 2
-  print("Negative numbers: $negativeCount"); // Output: 2
-}
+//   print("Positive numbers: $positiveCount"); // Output: 2
+//   print("Negative numbers: $negativeCount"); // Output: 2
+// }
 
 // 9. Find Duplicate Elements
 // List<int> numbers = [1, 2, 3, 2, 4, 1];
+
+// ----for loop-------
 
 // void main() {
 //   List<int> numbers = [1, 2, 3, 2, 4, 1];
@@ -495,6 +497,52 @@ void main() {
 //       }
 //     }
 //   }
+// }
+
+// -----while loop----------
+
+// void main() {
+//   List<int> numbers = [1, 2, 3, 2, 4, 1];
+//   List<int> duplicates = [];
+
+//   int i = 0;
+//   while (i < numbers.length) {
+//     int j = i + 1;
+//     while (j < numbers.length) {
+//       if (numbers[i] == numbers[j] && !duplicates.contains(numbers[i])) {
+//         duplicates.add(numbers[i]);
+//       }
+//       j++;
+//     }
+//     i++;
+//   }
+
+//   print('Duplicates (while): $duplicates');
+// }
+
+// -----do while loop------------
+
+// void main() {
+//   List<int> numbers = [1, 2, 3, 2, 4, 1];
+//   List<int> duplicates = [];
+
+//   if (numbers.length > 1) {
+//     int i = 0;
+//     do {
+//       int j = i + 1;
+//       if (j < numbers.length) {
+//         do {
+//           if (numbers[i] == numbers[j] && !duplicates.contains(numbers[i])) {
+//             duplicates.add(numbers[i]);
+//           }
+//           j++;
+//         } while (j < numbers.length);
+//       }
+//       i++;
+//     } while (i < numbers.length - 1);
+//   }
+
+//   print('Duplicates (do-while): $duplicates'); // Output: [1, 2]
 // }
 
 // 10. Palindrome Number Question
