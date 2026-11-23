@@ -668,6 +668,16 @@
 //   }
 // }
 
+//--------do while loop condition----------
+
+// void main() {
+//   int i = 1;
+//   do {
+//     print("$i Hello World!");
+//     i++;
+//   } while (i <= 20);
+// }
+
 // 3.Print Numbers 10 to 1
 
 // -------for loop condition----------
