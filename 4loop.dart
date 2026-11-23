@@ -773,6 +773,18 @@
 //   }
 // }
 
+// -------do while loop condition-------------
+
+// void main() {
+//   int i = 1;
+//   do {
+//     if (i % 2 == 1) {
+//       print(i);
+//     }
+//     i++;
+//   } while (i <= 20);
+// }
+
 // 6.Print Multiplication Table of 5
 
 // -------for loop condition----------
