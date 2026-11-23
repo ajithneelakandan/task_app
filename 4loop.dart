@@ -699,6 +699,16 @@
 //   }
 // }
 
+// --------do while loop condition---------
+
+// void main() {
+//   int i = 10;
+//   do {
+//     print(i);
+//     i--;
+//   } while (i >= 1);
+// }
+
 // 4.Print Even Numbers from 1 to 20
 
 // -------for loop condition----------
