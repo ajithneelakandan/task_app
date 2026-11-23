@@ -735,6 +735,19 @@
 //   }
 // }
 
+// -------do while loop condition------------
+
+// void main() {
+//   int i = 1;
+
+//   do {
+//     if (i % 2 == 0) {
+//       print(i);
+//     }
+//     i++;
+//   } while (i <= 20);
+// }
+
 // 5.Print Odd Numbers from 1 to 20
 
 // -------for loop condition----------
