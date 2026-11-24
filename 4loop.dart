@@ -810,10 +810,14 @@
 //   }
 // }
 
-// void main(List<String> args) {
-//   int i = 1;
-//   while (i <= 10) {
-//     print(i);
-//     i++;
-//   }
-// }
+// ------do while loop condition-------------
+
+void main() {
+  int i = 1;
+  do {
+    if (i % 5 == 0) {
+      print(i);
+    }
+    i++;
+  } while (i <= 50);
+}
