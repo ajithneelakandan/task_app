@@ -23,3 +23,43 @@
 //       break;
 //   }
 // }
+
+// Level 1: Beginner
+// 1. Day of the Week
+
+// Write a Dart program that accepts a number (1–7) and prints the corresponding day.
+
+// Example:
+// Input: 1
+// Output: Monday
+
+// import 'dart:io';
+
+// void main() {
+//   stdout.write("Enter your number : ");
+//   String name = stdin.readLineSync()!;
+//   int? day = int.tryParse(name);
+//   switch (day) {
+//     case 1:
+//       print("Monday");
+//       break;
+//     case 2:
+//       print("Tuesday");
+//       break;
+//     case 3:
+//       print("Wednesday");
+//       break;
+//     case 4:
+//       print("Thursday");
+//       break;
+//     case 5:
+//       print("Friday");
+//       break;
+//     case 6:
+//       print("Saturday");
+//       break;
+//     case 7:
+//       print("Sunday");
+//       break;
+//   }
+// }
